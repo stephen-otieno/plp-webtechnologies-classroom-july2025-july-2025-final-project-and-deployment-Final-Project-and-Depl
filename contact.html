@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroMart | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Electro<span>Mart</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact container">
+    <h2 class="section-title">Get in Touch</h2>
+    <div class="contact-wrapper">
+
+      <!-- Contact Details -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><i class="fas fa-phone"></i> +254 115 598 800</p>
+        <p><i class="fab fa-whatsapp"></i> +254 115 598 800</p>
+        <p><i class="fas fa-envelope"></i> engineerotienoduor14@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Kisii, Kenya</p>
+      </div>
+
+    <!-- Contact Form -->
+<form id="contactForm" class="contact-form">
+  <h3>Send Us a Message</h3>
+
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name">
+    <small class="error"></small>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Your email">
+    <small class="error"></small>
+  </div>
+
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Message subject">
+    <small class="error"></small>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+    <small class="error"></small>
+  </div>
+
+  <button type="submit" class="btn-primary">Send Message</button>
+</form>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 ElectroMart. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+<script src="js/contact.js"></script>
+
+</body>
+</html>

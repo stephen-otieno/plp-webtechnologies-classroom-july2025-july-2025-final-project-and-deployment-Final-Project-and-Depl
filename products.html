@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroMart | Products</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Electro<span>Mart</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- products section -->
+  <section class="products container">
+  <h2 class="section-title">Our Products</h2>
+  <div class="product-grid">
+    <!-- First Row -->
+    <div class="product-card">
+      <img src="images/HP1.jpg" alt="Laptop 1" class="product-img" onclick="openPopup(this)">
+      <h3>Model: HP 830 G3</h3>
+      <p class="price">$899</p>
+      <div class="card-actions">
+        <a href="#" class="btn-buy">Buy</a>
+        <a href="#" class="btn-view">View</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="images/AppleIphone.png" alt="Phone 1" class="product-img" onclick="openPopup(this)">
+      <h3>Model: Apple Iphone</h3>
+      <p class="price">$499</p>
+      <div class="card-actions">
+        <a href="#" class="btn-buy">Buy</a>
+        <a href="#" class="btn-view">View</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="images/DellLatitude1.png" alt="Laptop 2" class="product-img" onclick="openPopup(this)">
+      <h3>Model: Dell Latitude</h3>
+      <p class="price">$1,099</p>
+      <div class="card-actions">
+        <a href="#" class="btn-buy">Buy</a>
+        <a href="#" class="btn-view">View</a>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="product-card">
+      <img src="images/InfinixZeroFlip.png" alt="Phone 2" class="product-img" onclick="openPopup(this)">
+      <h3>Model: Infinix Zero Flip</h3>
+      <p class="price">$599</p>
+      <div class="card-actions">
+        <a href="#" class="btn-buy">Buy</a>
+        <a href="#" class="btn-view">View</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="images/Lenovo.png" alt="Laptop 3" class="product-img" onclick="openPopup(this)">
+      <h3>Model: Lenovo Thinkpad</h3>
+      <p class="price">$1,299</p>
+      <div class="card-actions">
+        <a href="#" class="btn-buy">Buy</a>
+        <a href="#" class="btn-view">View</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="images/SamsungGalaxy.png" alt="Phone 3" class="product-img" onclick="openPopup(this)">
+      <h3>Model: Samsung Galaxy</h3>
+      <p class="price">$699</p>
+      <div class="card-actions">
+        <a href="#" class="btn-buy">Buy</a>
+        <a href="#" class="btn-view">View</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Image Popup Modal -->
+  <div id="imgPopup" class="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <img class="popup-content" id="popupImg">
+    <div id="caption"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 ElectroMart. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
