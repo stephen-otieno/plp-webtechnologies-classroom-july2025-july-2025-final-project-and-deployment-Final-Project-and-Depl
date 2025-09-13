@@ -1,4 +1,4 @@
-** ElectroMart
+** ElectroMart <br>
 Live ElectroMart project can be accessed at:  https://stephen-otieno.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ElectroMart is a simple responsive website built with HTML, CSS, and JavaScript.
